@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>所有公司 - 国内影视创意公司大全</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-film"></i>
+                <span>创意公司查询</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> 首页</a>
+                <a href="companies.html" class="active"><i class="fas fa-building"></i> 所有公司</a>
+                <a href="about.html"><i class="fas fa-info-circle"></i> 关于</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 公司列表页面头部 -->
+    <section class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-building"></i> 所有公司</h1>
+            <p class="subtitle">浏览国内 100 家影视、广告、特效、三维建模相关公司</p>
+            
+            <div class="page-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-companies">100</div>
+                    <div class="stat-label">公司总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="featured-count">--</div>
+                    <div class="stat-label">推荐公司</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">分类数量</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="cities-count">--</div>
+                    <div class="stat-label">城市分布</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 筛选工具栏 -->
+    <section class="filter-toolbar">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="category-filter"><i class="fas fa-filter"></i> 分类：</label>
+                    <select id="category-filter">
+                        <option value="">所有分类</option>
+                        <option value="film">影视制作</option>
+                        <option value="vfx">视觉特效</option>
+                        <option value="animation">动画制作</option>
+                        <option value="3d">三维/CG</option>
+                        <option value="ad">广告创意</option>
+                        <option value="tv">综艺/剧集</option>
+                        <option value="post">后期制作</option>
+                        <option value="game">游戏制作</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="location-filter"><i class="fas fa-map-marker-alt"></i> 地点：</label>
+                    <select id="location-filter">
+                        <option value="">所有地点</option>
+                        <!-- 由JS动态填充 -->
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-filter"><i class="fas fa-sort-amount-down"></i> 排序：</label>
+                    <select id="sort-filter">
+                        <option value="rating">评分最高</option>
+                        <option value="name">名称A-Z</option>
+                        <option value="founded">成立时间</option>
+                        <option value="featured">推荐优先</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <button id="reset-filters" class="reset-btn">
+                        <i class="fas fa-redo"></i> 重置筛选
+                    </button>
+                </div>
+            </div>
+            
+            <div class="search-box compact">
+                <div class="search-input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="company-search" placeholder="搜索公司名称、地点或关键词...">
+                    <button id="company-search-btn">搜索</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 公司列表 -->
+    <section class="companies-list">
+        <div class="container">
+            <div class="list-header">
+                <h2 id="results-count">显示全部20家公司</h2>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid">
+                        <i class="fas fa-th-large"></i> 网格视图
+                    </button>
+                    <button class="view-btn" data-view="list">
+                        <i class="fas fa-list"></i> 列表视图
+                    </button>
+                </div>
+            </div>
+            
+            <div class="companies-container" id="companies-container">
+                <!-- 公司列表将通过JS动态加载 -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i> 加载中...
+                </div>
+            </div>
+            
+            <div class="pagination" id="pagination">
+                <!-- 分页将通过JS动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-film"></i> 创意公司查询</h3>
+                    <p>致力于为影视、广告、特效、三维建模行业提供全面的公司信息查询服务。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="companies.html">所有公司</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>分类</h3>
+                    <ul>
+                        <li><a href="#" data-category="film">影视制作</a></li>
+                        <li><a href="#" data-category="ad">广告创意</a></li>
+                        <li><a href="#" data-category="vfx">视觉特效</a></li>
+                        <li><a href="#" data-category="3d">三维建模</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 创意公司查询平台. 保留所有权利.</p>
+                <p>数据仅供参考，具体信息请以官方渠道为准</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/companies.js"></script>
+</body>
+</html>
