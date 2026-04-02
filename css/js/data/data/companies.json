@@ -1,0 +1,581 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "工业光魔 (Industrial Light & Magic)",
+      "shortName": "ILM",
+      "logo": "ILM",
+      "description": "全球顶尖的视觉特效公司，由乔治·卢卡斯创立，参与制作了《星球大战》、《侏罗纪公园》等众多经典电影。",
+      "location": "海外",
+      "city": "旧金山",
+      "country": "美国",
+      "founded": 1975,
+      "employees": "2000+",
+      "website": "https://www.ilm.com",
+      "categories": ["vfx", "film", "3d"],
+      "tags": ["视觉特效", "电影制作", "CGI", "好莱坞"],
+      "rating": 4.9,
+      "featured": true,
+      "projects": [
+        "星球大战系列",
+        "侏罗纪公园系列",
+        "复仇者联盟系列",
+        "加勒比海盗系列"
+      ],
+      "services": ["视觉特效制作", "CG角色动画", "环境特效", "数字绘景"],
+      "contact": {
+        "email": "info@ilm.com",
+        "phone": "+1-415-448-3000"
+      }
+    },
+    {
+      "id": 2,
+      "name": "维塔数码 (Weta Digital)",
+      "shortName": "Weta",
+      "logo": "WD",
+      "description": "新西兰著名视觉特效公司，以《指环王》系列、《阿凡达》等作品闻名，在动作捕捉和数字角色方面技术领先。",
+      "location": "海外",
+      "city": "惠灵顿",
+      "country": "新西兰",
+      "founded": 1993,
+      "employees": "1500+",
+      "website": "https://www.wetafx.co.nz",
+      "categories": ["vfx", "film", "3d"],
+      "tags": ["数字角色", "动作捕捉", "特效制作", "奥斯卡获奖"],
+      "rating": 4.8,
+      "featured": true,
+      "projects": [
+        "指环王系列",
+        "阿凡达系列",
+        "猩球崛起系列",
+        "金刚"
+      ],
+      "services": ["数字角色制作", "动作捕捉", "环境特效", "毛发模拟"],
+      "contact": {
+        "email": "contact@wetafx.co.nz",
+        "phone": "+64-4-909-4000"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Base FX",
+      "shortName": "Base",
+      "logo": "BFX",
+      "description": "中国领先的视觉特效和动画公司，参与制作了《流浪地球》、《捉妖记》等国产大片，在国内外都有良好声誉。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 2002,
+      "employees": "800+",
+      "website": "https://www.base-fx.com",
+      "categories": ["vfx", "film", "animation"],
+      "tags": ["视觉特效", "动画制作", "电影后期", "中国公司"],
+      "rating": 4.7,
+      "featured": true,
+      "projects": [
+        "流浪地球",
+        "捉妖记系列",
+        "长城",
+        "美国队长3"
+      ],
+      "services": ["视觉特效制作", "动画制作", "后期合成", "虚拟拍摄"],
+      "contact": {
+        "email": "info@base-fx.com",
+        "phone": "+86-10-8472-6688"
+      }
+    },
+    {
+      "id": 4,
+      "name": "天工异彩",
+      "shortName": "天工",
+      "logo": "TG",
+      "description": "国内知名的影视后期制作公司，专注于电影、电视剧的后期制作和特效，与众多知名导演合作。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 2006,
+      "employees": "500+",
+      "website": "https://www.tiangongvfx.com",
+      "categories": ["vfx", "film", "post"],
+      "tags": ["影视后期", "特效制作", "调色", "声音设计"],
+      "rating": 4.6,
+      "featured": true,
+      "projects": [
+        "战狼2",
+        "红海行动",
+        "哪吒之魔童降世",
+        "我不是药神"
+      ],
+      "services": ["影视后期制作", "视觉特效", "调色服务", "声音设计"],
+      "contact": {
+        "email": "contact@tiangongvfx.com",
+        "phone": "+86-10-6581-8888"
+      }
+    },
+    {
+      "id": 5,
+      "name": "追光动画",
+      "shortName": "追光",
+      "logo": "ZG",
+      "description": "中国顶尖的3D动画制作公司，以高品质的原创动画电影闻名，如《白蛇：缘起》、《新神榜：杨戬》等。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 2013,
+      "employees": "400+",
+      "website": "https://www.lightchaser.cn",
+      "categories": ["animation", "3d", "film"],
+      "tags": ["3D动画", "原创IP", "动画电影", "中国文化"],
+      "rating": 4.7,
+      "featured": true,
+      "projects": [
+        "白蛇：缘起",
+        "新神榜：杨戬",
+        "小门神",
+        "猫与桃花源"
+      ],
+      "services": ["3D动画制作", "IP开发", "角色设计", "动画电影制作"],
+      "contact": {
+        "email": "info@lightchaser.cn",
+        "phone": "+86-10-5762-6000"
+      }
+    },
+    {
+      "id": 6,
+      "name": "奥美广告 (Ogilvy)",
+      "shortName": "奥美",
+      "logo": "OG",
+      "description": "全球领先的广告和营销公司，以创意著称，为众多国际品牌提供广告策划和创意服务。",
+      "location": "shanghai",
+      "city": "上海",
+      "country": "中国",
+      "founded": 1948,
+      "employees": "10000+",
+      "website": "https://www.ogilvy.com.cn",
+      "categories": ["ad"],
+      "tags": ["广告创意", "品牌营销", "数字营销", "国际公司"],
+      "rating": 4.8,
+      "featured": false,
+      "projects": [
+        "可口可乐广告系列",
+        "IBM品牌重塑",
+        "大众汽车广告",
+        "联合利华品牌营销"
+      ],
+      "services": ["广告策划", "创意设计", "品牌策略", "数字营销"],
+      "contact": {
+        "email": "china@ogilvy.com",
+        "phone": "+86-21-2308-8888"
+      }
+    },
+    {
+      "id": 7,
+      "name": "蓝色光标",
+      "shortName": "蓝色光标",
+      "logo": "LB",
+      "description": "中国最大的公关和广告公司之一，为众多国内外品牌提供整合营销传播服务。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 1996,
+      "employees": "6000+",
+      "website": "https://www.bluefocus.com",
+      "categories": ["ad"],
+      "tags": ["公关广告", "数字营销", "品牌传播", "上市公司"],
+      "rating": 4.5,
+      "featured": false,
+      "projects": [
+        "腾讯品牌营销",
+        "华为海外推广",
+        "京东618营销",
+        "字节跳动品牌建设"
+      ],
+      "services": ["公关服务", "广告投放", "数字营销", "品牌管理"],
+      "contact": {
+        "email": "service@bluefocus.com",
+        "phone": "+86-10-6581-9999"
+      }
+    },
+    {
+      "id": 8,
+      "name": "华谊兄弟",
+      "shortName": "华谊",
+      "logo": "HY",
+      "description": "中国领先的综合性娱乐集团，涵盖电影制作、发行、艺人经纪等多个领域。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 1994,
+      "employees": "2000+",
+      "website": "https://www.hbeng.com",
+      "categories": ["film"],
+      "tags": ["电影制作", "影视投资", "艺人经纪", "娱乐集团"],
+      "rating": 4.6,
+      "featured": false,
+      "projects": [
+        "非诚勿扰系列",
+        "唐山大地震",
+        "老炮儿",
+        "八佰"
+      ],
+      "services": ["电影制作", "影视投资", "艺人经纪", "影院运营"],
+      "contact": {
+        "email": "ir@hbeng.com",
+        "phone": "+86-10-6588-8888"
+      }
+    },
+    {
+      "id": 9,
+      "name": "字节跳动-火山引擎",
+      "shortName": "火山引擎",
+      "logo": "HS",
+      "description": "字节跳动旗下的云服务平台，提供视频特效、AI生成等技术支持，服务于影视和广告行业。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 2020,
+      "employees": "1000+",
+      "website": "https://www.volcengine.com",
+      "categories": ["vfx", "ad", "3d"],
+      "tags": ["AI特效", "云计算", "视频处理", "字节跳动"],
+      "rating": 4.7,
+      "featured": false,
+      "projects": [
+        "抖音特效支持",
+        "剪映专业版",
+        "AI视频生成",
+        "实时渲染"
+      ],
+      "services": ["AI特效", "视频处理", "云计算", "实时渲染"],
+      "contact": {
+        "email": "business@volcengine.com",
+        "phone": "+86-10-6266-6666"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Unity Technologies",
+      "shortName": "Unity",
+      "logo": "UT",
+      "description": "全球领先的实时3D开发平台，广泛应用于游戏开发、影视特效、建筑可视化等领域。",
+      "location": "overseas",
+      "city": "旧金山",
+      "country": "美国",
+      "founded": 2004,
+      "employees": "5000+",
+      "website": "https://www.unity.com",
+      "categories": ["3d", "vfx", "animation"],
+      "tags": ["实时渲染", "游戏引擎", "3D开发", "虚拟制作"],
+      "rating": 4.8,
+      "featured": true,
+      "projects": [
+        "Unity引擎开发",
+        "虚拟拍摄解决方案",
+        "实时影视制作",
+        "建筑可视化"
+      ],
+      "services": ["3D引擎开发", "实时渲染", "虚拟制作", "培训服务"],
+      "contact": {
+        "email": "info@unity3d.com",
+        "phone": "+1-415-539-3160"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Autodesk",
+      "shortName": "Autodesk",
+      "logo": "AD",
+      "description": "全球领先的设计软件公司，旗下有Maya、3ds Max等广泛应用于影视、游戏、建筑行业的3D软件。",
+      "location": "overseas",
+      "city": "旧金山",
+      "country": "美国",
+      "founded": 1982,
+      "employees": "13000+",
+      "website": "https://www.autodesk.com",
+      "categories": ["3d", "vfx", "animation"],
+      "tags": ["设计软件", "3D建模", "动画制作", "行业标准"],
+      "rating": 4.7,
+      "featured": false,
+      "projects": [
+        "Maya软件开发",
+        "3ds Max软件开发",
+        "AutoCAD",
+        "Revit"
+      ],
+      "services": ["3D软件", "设计工具", "培训认证", "技术支持"],
+      "contact": {
+        "email": "support@autodesk.com",
+        "phone": "+1-415-507-5000"
+      }
+    },
+    {
+      "id": 12,
+      "name": "水晶石数字科技",
+      "shortName": "水晶石",
+      "logo": "SJ",
+      "description": "中国知名的数字视觉展示公司，在建筑可视化、影视特效、展览展示等领域有丰富经验。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 1995,
+      "employees": "3000+",
+      "website": "https://www.crystalcg.com",
+      "categories": ["3d", "vfx", "animation"],
+      "tags": ["建筑可视化", "数字展示", "影视特效", "大型项目"],
+      "rating": 4.6,
+      "featured": false,
+      "projects": [
+        "北京奥运会数字影像",
+        "上海世博会中国馆",
+        "故宫数字复原",
+        "大型建筑可视化"
+      ],
+      "services": ["建筑可视化", "影视特效", "展览展示", "数字孪生"],
+      "contact": {
+        "email": "info@crystalcg.com",
+        "phone": "+86-10-8857-8888"
+      }
+    },
+    {
+      "id": 13,
+      "name": "完美世界影视",
+      "shortName": "完美影视",
+      "logo": "WM",
+      "description": "中国领先的影视制作公司，涵盖电视剧、电影、网络剧等多种内容形式。",
+      "location": "beijing",
+      "city": "北京",
+      "country": "中国",
+      "founded": 2008,
+      "employees": "1000+",
+      "website": "https://www.pwpic.com",
+      "categories": ["film"],
+      "tags": ["电视剧制作", "电影制作", "网络剧", "内容制作"],
+      "rating": 4.5,
+      "featured": false,
+      "projects": [
+        "香蜜沉沉烬如霜",
+        "独孤天下",
+        "烈火如歌",
+        "青春斗"
+      ],
+      "services": ["影视制作", "内容投资", "IP开发", "发行服务"],
+      "contact": {
+        "email": "media@pwpic.com",
+        "phone": "+86-10-5785-5555"
+      }
+    },
+    {
+      "id": 14,
+      "name": "上海电影制片厂",
+      "shortName": "上影",
+      "logo": "SY",
+      "description": "中国历史最悠久的电影制片厂之一，拥有丰富的电影制作经验和优秀的创作团队。",
+      "location": "shanghai",
+      "city": "上海",
+      "country": "中国",
+      "founded": 1949,
+      "employees": "800+",
+      "website": "https://www.sfs-cn.com",
+      "categories": ["film"],
+      "tags": ["国有制片厂", "电影制作", "历史传承", "上海电影"],
+      "rating": 4.4,
+      "featured": false,
+      "projects": [
+        "红色娘子军",
+        "庐山恋",
+        "城南旧事",
+        "我不是潘金莲"
+      ],
+      "services": ["电影制作", "影视基地", "设备租赁", "人才培养"],
+      "contact": {
+        "email": "office@sfs-cn.com",
+        "phone": "+86-21-6438-7000"
+      }
+    },
+    {
+      "id": 15,
+      "name": "广州凡拓数字创意",
+      "shortName": "凡拓",
+      "logo": "FT",
+      "description": "专注于数字创意展示和3D可视化服务的公司，在建筑、地产、文化等领域有丰富经验。",
+      "location": "guangzhou",
+      "city": "广州",
+      "country": "中国",
+      "founded": 2002,
+      "employees": "500+",
+      "website": "https://www.frontop.com",
+      "categories": ["3d", "animation"],
+      "tags": ["数字展示", "3D可视化", "建筑动画", "展览展示"],
+      "rating": 4.5,
+      "featured": false,
+      "projects": [
+        "广州塔数字展示",
+        "深圳前海规划展示",
+        "博物馆数字展陈",
+        "地产项目可视化"
+      ],
+      "services": ["3D可视化", "数字展陈", "VR/AR制作", "动画制作"],
+      "contact": {
+        "email": "service@frontop.com",
+        "phone": "+86-20-8760-8888"
+      }
+    },
+    {
+      "id": 16,
+      "name": "深圳瑞云科技",
+      "shortName": "瑞云",
+      "logo": "RY",
+      "description": "领先的云渲染服务提供商，为影视、动画、建筑等行业提供高效的云计算渲染服务。",
+      "location": "shenzhen",
+      "city": "深圳",
+      "country": "中国",
+      "founded": 2010,
+      "employees": "300+",
+      "website": "https://www.renderbus.com",
+      "categories": ["3d", "vfx", "animation"],
+      "tags": ["云渲染", "云计算", "特效渲染", "渲染农场"],
+      "rating": 4.6,
+      "featured": false,
+      "projects": [
+        "流浪地球云渲染",
+        "哪吒之魔童降世渲染",
+        "众多动画电影渲染",
+        "建筑可视化渲染"
+      ],
+      "services": ["云渲染", "渲染农场", "技术支持", "定制解决方案"],
+      "contact": {
+        "email": "service@renderbus.com",
+        "phone": "+86-755-2665-8888"
+      }
+    },
+    {
+      "id": 17,
+      "name": "杭州玄机科技",
+      "shortName": "玄机",
+      "logo": "XJ",
+      "description": "中国知名的3D动画制作公司，以《秦时明月》系列动画闻名，拥有成熟的3D动画制作技术。",
+      "location": "hangzhou",
+      "city": "杭州",
+      "country": "中国",
+      "founded": 2005,
+      "employees": "400+",
+      "website": "https://www.xuanji.com",
+      "categories": ["animation", "3d"],
+      "tags": ["3D动画", "秦时明月", "国产动画", "IP开发"],
+      "rating": 4.7,
+      "featured": true,
+      "projects": [
+        "秦时明月系列",
+        "天行九歌",
+        "武庚纪",
+        "斗罗大陆动画"
+      ],
+      "services": ["3D动画制作", "IP运营", "衍生品开发", "游戏改编"],
+      "contact": {
+        "email": "business@xuanji.com",
+        "phone": "+86-571-8535-8888"
+      }
+    },
+    {
+      "id": 18,
+      "name": "成都可可豆动画",
+      "shortName": "可可豆",
+      "logo": "KD",
+      "description": "制作了《哪吒之魔童降世》等爆款动画电影的公司，在国产动画电影领域有重要地位。",
+      "location": "chengdu",
+      "city": "成都",
+      "country": "中国",
+      "founded": 2015,
+      "employees": "200+",
+      "website": "https://www.kekedou.com",
+      "categories": ["animation", "film"],
+      "tags": ["动画电影", "哪吒", "国产动画", "爆款制作"],
+      "rating": 4.8,
+      "featured": true,
+      "projects": [
+        "哪吒之魔童降世",
+        "姜子牙",
+        "深海",
+        "动画电影系列"
+      ],
+      "services": ["动画电影制作", "IP开发", "角色设计", "剧本创作"],
+      "contact": {
+        "email": "contact@kekedou.com",
+        "phone": "+86-28-8555-8888"
+      }
+    },
+    {
+      "id": 19,
+      "name": "DNEG",
+      "shortName": "DNEG",
+      "logo": "DN",
+      "description": "全球领先的视觉特效和动画公司，多次获得奥斯卡最佳视觉效果奖。",
+      "location": "overseas",
+      "city": "伦敦",
+      "country": "英国",
+      "founded": 1998,
+      "employees": "8000+",
+      "website": "https://www.dneg.com",
+      "categories": ["vfx", "film", "animation"],
+      "tags": ["视觉特效", "奥斯卡", "国际公司", "特效制作"],
+      "rating": 4.7,
+      "featured": false,
+      "projects": [
+        "盗梦空间",
+        "星际穿越",
+        "银翼杀手2049",
+        "沙丘"
+      ],
+      "services": ["视觉特效制作", "动画制作", "虚拟制作", "后期服务"],
+      "contact": {
+        "email": "info@dneg.com",
+        "phone": "+44-20-7434-4000"
+      }
+    },
+    {
+      "id": 20,
+      "name": "深圳点石数码",
+      "shortName": "点石数码",
+      "logo": "DS",
+      "description": "专注于建筑可视化、地产动画和VR/AR内容制作的公司，在华南地区有较高知名度。",
+      "location": "shenzhen",
+      "city": "深圳",
+      "country": "中国",
+      "founded": 2003,
+      "employees": "150+",
+      "website": "https://www.dianshi.com",
+      "categories": ["3d", "animation"],
+      "tags": ["建筑可视化", "地产动画", "VR/AR", "华南公司"],
+      "rating": 4.4,
+      "featured": false,
+      "projects": [
+        "深圳湾超级总部动画",
+        "广州金融城可视化",
+        "多个地产项目VR展示",
+        "城市规划展示"
+      ],
+      "services": ["建筑可视化", "地产动画", "VR/AR制作", "展览展示"],
+      "contact": {
+        "email": "service@dianshi.com",
+        "phone": "+86-755-2666-8888"
+      }
+    }
+  ],
+  "categories": {
+    "film": "影视制作",
+    "ad": "广告创意",
+    "vfx": "视觉特效",
+    "3d": "三维建模",
+    "animation": "动画制作",
+    "post": "后期制作"
+  },
+  "locations": {
+    "beijing": "北京",
+    "shanghai": "上海",
+    "guangzhou": "广州",
+    "shenzhen": "深圳",
+    "hangzhou": "杭州",
+    "chengdu": "成都",
+    "overseas": "海外"
+  }
+}
